@@ -1,0 +1,22 @@
+{
+  "name": "vagrant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:mmallett91/coms6998proj2worker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alchemyapi": "0.0.3",
+    "aws-sdk": "^2.2.19",
+    "mongodb": "^2.0.49",
+    "watson-developer-cloud": "^1.0.5"
+  }
+}
